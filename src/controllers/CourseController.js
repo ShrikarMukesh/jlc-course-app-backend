@@ -23,6 +23,7 @@ mycourseRoute.route("/mycourse/:courseId").get((req, res, next) => {
     } else {
       res.json(data);
     }
+    
   });
 });
 module.exports = mycourseRoute;
